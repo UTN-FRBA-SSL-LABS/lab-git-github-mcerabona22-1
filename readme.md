@@ -48,7 +48,7 @@ Compilá el proyecto para asegurarte de que el estado inicial funciona:
 
 ```bash
 make
-./calculadora
+./calculadormaa
 ```
 
 Vas a ver que `multiplicar` devuelve 0 — eso es lo esperado, es lo que vas a implementar.
