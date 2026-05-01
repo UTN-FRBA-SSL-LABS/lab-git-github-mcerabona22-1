@@ -2,13 +2,13 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(int a, int b) {
+int sumar(const int a,const int b) {
     return a + b;
 }
 
 /* ── restar — ya implementada ────────────────────────────────────────────── */
 
-int restar(int a, int b) {
+int restar(const int a, const int b) {
     return a - b;
 }
 
@@ -16,12 +16,12 @@ int restar(int a, int b) {
 
 /* Implementa la función multiplicar, que recibe dos enteros y devuelve su producto. */
 
-int multiplicar(int a, int b) {
+int multiplicar(const int a,const int b) {
     return a * b;
 }
-
+/*Recibe dos parametros de tipo int (numeros enteros) y te retorna el resultado del pruducto*/
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
-int esPar(int n) {
+int esPar(const int n) {
     return (n % 2) == 0;
 }
