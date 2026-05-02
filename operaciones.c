@@ -6,6 +6,11 @@ int sumar(const int a,const int b) {
     return a + b;
 }
 
+/*El uso de const sirve para indicar que el valor de una variable no debe ser modificado después de su inicialización.
+ Al usarlo en los parámetros de una función, como en sumar(const int a, const int b),
+ garantizamos que la función tratará a esos valores como de 'solo lectura',
+ evitando errores accidentales donde se modifiquen los argumentos originales*/
+
 /* ── restar — ya implementada ────────────────────────────────────────────── */
 
 int restar(const int a, const int b) {
@@ -25,3 +30,4 @@ int multiplicar(const int a,const int b) {
 int esPar(const int n) {
     return (n % 2) == 0;
 }
+
