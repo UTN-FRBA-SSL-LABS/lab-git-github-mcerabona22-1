@@ -27,8 +27,8 @@ int multiplicar(const int a,const int b) {
 /*Recibe dos parametros de tipo int (numeros enteros) y te retorna el resultado del pruducto*/
 /* ── esPar ────────────────────────────────────────────────────────────────── */
 
-int esPar(const int n) {
-    return (n % 2) == 0;
+int esPar(int n) {
+    return (n % 2) == 0; /* version main */
 }
 
 int dividir(int a, int b) {
